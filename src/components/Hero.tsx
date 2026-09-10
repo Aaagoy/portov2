@@ -9,47 +9,46 @@ import {
 import Image from "next/image";
 
 export default function Hero() {
-  return (
+return (
     <section
-      id="tentang"
-      className="min-h-screen bg-[#f8f9fc] px-6 pb-16 pt-28 lg:px-10 lg:pt-36"
+    id="tentang"
+    className="min-h-screen bg-[#f8f9fc] px-6 pb-16 pt-28 lg:px-10 lg:pt-36"
     >
-      <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.15fr_0.85fr]">
+        <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.15fr_0.85fr]">
 
         {/* ================= LEFT ================= */}
         <div>
 
           {/* Availability Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-sm bg-[#edf0f2] px-3 py-1.5">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-sm bg-[#edf0f2] px-3 py-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-green-700" />
 
-            <span className="text-[10px] font-medium uppercase tracking-wide text-gray-500">
-              Tersedia untuk proyek baru & kolaborasi
+            <span className="text-[10px] font-medium uppercase text-gray-500">
+                Tersedia untuk proyek baru & kolaborasi
             </span>
-          </div>
+        </div>
 
           {/* Small Heading */}
           <p className="mb-3 text-xs font-medium uppercase tracking-[0.15em] text-gray-500">
-            Product Designer & Frontend Engineer
+            developper and bussiness manager
           </p>
 
           {/* Main Heading */}
           <h1 className="max-w-3xl font-serif text-5xl leading-[0.98] tracking-[-0.04em] text-[#171a1d] sm:text-6xl lg:text-[64px]">
             Membangun pengalaman
             <br />
-            digital yang fungsional,
+            digital yang menyenangkan,
             <br />
             terstruktur, dan
             <br />
-            bernilai guna tinggi.
+            bisnis yang menjanjikan.
           </h1>
 
           {/* Description */}
           <p className="mt-7 max-w-2xl text-sm leading-6 text-gray-500 sm:text-base">
-            Menjembatani keindahan estetika arsitektural dengan ketangguhan
-            kode modern. Berfokus pada perancangan antarmuka berskala
-            enterprise, sistem desain teruji, dan interaksi yang intuitif
-            bagi pengguna.
+            Membantu pelaku usaha mengenalkan produknya secara diital dengan teknologi
+            modern. Merancang pengalaman digital yang menyenangkan dengan tampilan yang sangat
+            fresh dan gampang digunakan oleh siapa saja.
           </p>
 
           {/* Buttons */}
@@ -59,7 +58,7 @@ export default function Hero() {
               href="#pengalaman"
               className="group flex items-center gap-3 rounded-sm bg-[#20252b] px-5 py-3 text-xs font-medium text-white transition hover:bg-black"
             >
-              Lihat Karya Pilihan
+                Lihat Karya Pilihan
 
               <ArrowDown
                 size={15}
@@ -82,15 +81,15 @@ export default function Hero() {
           <div className="mt-14 flex flex-wrap items-start">
 
             <Stat
-              value="5+ Tahun"
+              value="1 Tahun"
               label="Pengalaman Praktik"
             />
 
             <div className="mx-7 h-10 w-px bg-gray-200" />
 
             <Stat
-              value="24+ Proyek"
-              label="Tuntas & Berdampak"
+              value="3 Proyek"
+              label="Tuntas"
             />
 
             <div className="mx-7 h-10 w-px bg-gray-200" />
@@ -112,17 +111,16 @@ export default function Hero() {
 
             <div className="relative overflow-hidden rounded-md bg-gray-300">
 
-              <Image
+            <Image
                 src="/image/profile.png"
                 alt="Studio utama"
                 width={700} 
                 height={600} 
                 className="h-auto w-full"
-              />
+            />
 
               {/* Bottom gradient */}
               <div className="absolute inset-x-0 bottom-0 h-32 from-black/30 to-transparent" />
-
             </div>
 
             {/* Settings */}
@@ -139,15 +137,10 @@ export default function Hero() {
               <Settings size={18} />
             </div>
 
-            <div>
-              <p className="text-[9px] uppercase tracking-wide text-gray-400">
-                Pendekatan
-              </p>
 
-              <p className="text-xs font-medium text-gray-800">
+            <p className="text-xs font-medium text-gray-800">
                 Human-Centric & Robust
               </p>
-            </div>
 
           </div>
 
