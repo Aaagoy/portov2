@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart3, Code2, Cpu } from 'lucide-react';
+import { BarChart3, Cpu } from 'lucide-react';
 
 const communityData = [
   {
@@ -22,14 +22,14 @@ const communityData = [
 
 export default function Skills() {
   return (
-    <section className="bg-[#eff4f9] py-16 px-6 md:px-12 font-sans text-slate-800">
+    <section className="bg-white py-16 px-6 md:px-12 font-sans text-slate-800">
       <div className="max-w-7xl mx-auto space-y-10">
         
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
             <span className="text-[11px] font-semibold tracking-widest text-slate-400 uppercase">
-              Skills
+              03 / Skills
             </span>
             <h2 className="text-3xl md:text-4xl font-serif text-slate-900 mt-2 font-normal">
               Kolaborasi di Luar Meja Kerja

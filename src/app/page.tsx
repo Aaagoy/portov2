@@ -1,4 +1,5 @@
-import Experience from "@/components/experience";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Organization from "@/components/Organization";
@@ -9,9 +10,10 @@ export default function Home() {
     <>
     <Header/>
     <Hero/>
-    <Experience/>
+    <About/>
     <Organization/>
     <Skills/>
+    <Contact/>
     </>
   );
 }

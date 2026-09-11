@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, CheckCircle2 } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 const careerData = [
   {
