@@ -14,6 +14,7 @@ export default function Home() {
     <Organization/>
     <Skills/>
     <Contact/>
+    <footer/>
     </>
   );
 }
