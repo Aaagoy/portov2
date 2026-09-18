@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function Hero() {
 return (
     <section
-    id="tentang"
+    id="Hero"
     className="min-h-screen bg-[#f8f9fc] px-6 pb-16 pt-28 lg:px-10 lg:pt-36"
     >
         <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.15fr_0.85fr]">

@@ -22,7 +22,8 @@ const communityData = [
 
 export default function Skills() {
   return (
-    <section className="bg-white py-16 px-6 md:px-12 font-sans text-slate-800">
+    <section id="skill" 
+    className="bg-white py-16 px-6 md:px-12 font-sans text-slate-800">
       <div className="max-w-7xl mx-auto space-y-10">
         
         {/* Header Section */}

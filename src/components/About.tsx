@@ -3,7 +3,8 @@ import { SlidersHorizontal, Zap, ShieldCheck, GraduationCap } from 'lucide-react
 
 export default function About() {
   return (
-    <section className="min-h-screen mx-auto px-6 py-16 bg-white font-sans text-slate-800">
+    <section id="about"
+    className="min-h-screen mx-auto px-6 py-16 bg-white font-sans text-slate-800">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
         {/* Kolom Kiri / Utama (7 dari 12 Kolom) */}

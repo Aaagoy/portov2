@@ -26,7 +26,8 @@ const careerData = [
 
 export default function Organization() {
   return (
-    <section className="bg-[#eff4f9] py-16 px-6 font-sans text-slate-800">
+    <section id="organization"
+    className="bg-[#eff4f9] py-16 px-6 font-sans text-slate-800">
       <div className="max-w-7xl mx-auto space-y-12">        
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
